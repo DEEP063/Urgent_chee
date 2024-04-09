@@ -56,6 +56,4 @@ class LinearDemo(unittest.TestCase):
        """Tear down method to close the browser."""
        self.driver.quit()
 
-# It is mandatory when you want to run code using command prompt
-if __name__ == '__main__':
-   unittest.main()
+
