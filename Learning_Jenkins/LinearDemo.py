@@ -56,7 +56,7 @@ class LinearDemo(unittest.TestCase):
        """Tear down method to close the browser."""
        self.driver.quit()
 
-# XYZ
+
 
 
 # It is mandatory when you want to run code using command prompt
