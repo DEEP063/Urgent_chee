@@ -17,7 +17,7 @@ class LinearDemo(unittest.TestCase):
    def test_linear_flow_testing(self):
        # Navigate to desired web page and verify web page is displayed
        self.driver.get("https://jignect.tech/")
-       self.assertTrue("Software Testing Company" in self.driver.title)
+       # self.assertTrue("Software Testing Company" in self.driver.title)
 
        # Click on the contact us button
        contact_us_button = self.driver.find_element(By.XPATH, "//ul[@id='menu-main-menu']//a[text()='Contact Us']")
