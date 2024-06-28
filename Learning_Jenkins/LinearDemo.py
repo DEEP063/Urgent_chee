@@ -57,8 +57,6 @@ class LinearDemo(unittest.TestCase):
        self.driver.quit()
 
 
-
-
 # It is mandatory when you want to run code using command prompt
 if __name__ == '__main__':
    unittest.main()
