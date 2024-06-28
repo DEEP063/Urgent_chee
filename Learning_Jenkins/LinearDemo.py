@@ -58,7 +58,7 @@ class LinearDemo(unittest.TestCase):
 
 # XYZ
 # abc
-# 123
+
 
 # It is mandatory when you want to run code using command prompt
 if __name__ == '__main__':
