@@ -55,7 +55,8 @@ class LinearDemo(unittest.TestCase):
    def tearDown(self):
        """Tear down method to close the browser."""
        self.driver.quit()
-
+      
+# Added some commet
 
 # It is mandatory when you want to run code using command prompt
 if __name__ == '__main__':
