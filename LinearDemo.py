@@ -52,6 +52,7 @@ class LinearDemo(unittest.TestCase):
        self.assertEqual(phone_number_actual_validation_message, expected_validation_message,
                         "Phone number validation message does not match")
 
+   
    def tearDown(self):
        """Tear down method to close the browser."""
        self.driver.quit()
